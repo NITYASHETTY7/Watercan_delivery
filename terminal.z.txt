@@ -1,0 +1,6 @@
+<?php
+return array (
+  'PROJECT_ID' => '1',
+  'TIMESTAMPS_CORE' => 1715085357,
+  'TIMESTAMPS_PUBLIC' => 1715084687,
+);

@@ -1,0 +1,58 @@
+/* body {
+    font-family: "Inter", sans-serif;
+} */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.border-custom {
+    border: 1px solid #dbdbdb;
+}
+.radio-label.active {
+    background: #dbeafe;
+}
+
+.frequency-radio.active {
+    background: #dbeafe;
+}
+.tab-btn.active {
+    background-color: white;
+    color: #111827;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown-menu {
+    animation: fadeIn 0.15s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#map {
+    height: 180px;
+    width: 100%;
+    border: 1px solid #e5e7eb;
+}
+
+@media (min-width: 768px) {
+    #map {
+        height: 300px;
+    }
+}
+
+.mix-multiply{
+    mix-blend-mode: multiply;
+}
+
+.leaflet-control-attribution.leaflet-control{
+    display: none;
+}

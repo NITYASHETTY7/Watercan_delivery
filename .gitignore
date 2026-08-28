@@ -1,0 +1,162 @@
+# ===================================================
+# Environment & Sensitive Configuration Files
+# ===================================================
+.env
+.env.backup
+.env.bak
+.env.prod
+.env.production
+.env.local
+.env.development
+.env.stage
+.env.staging
+.env.testing
+.env.*.local
+.env.*
+!.env.example
+!.env.testing.example
+
+# ===================================================
+# Authentication, Credentials & API Keys
+# ===================================================
+auth.json
+credentials.json
+client_secret*.json
+service-account*.json
+service_account*.json
+google-services.json
+GoogleService-Info.plist
+*firebase*.json
+*-adminsdk-*.json
+*.keystore
+*.jks
+
+# SSL / TLS Private Keys and Certificates
+*.key
+*.pem
+*.crt
+*.cer
+*.pfx
+*.p12
+*.csr
+oauth-*.key
+id_rsa*
+id_ed25519*
+
+# ===================================================
+# Dependencies & Package Managers
+# ===================================================
+/node_modules
+/vendor
+composer.phar
+
+# ===================================================
+# Laravel Application Storage & Cache
+# ===================================================
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/*.key
+/storage/*.json
+/storage/oauth-*.key
+/storage/dotenv-editor/*
+!/storage/dotenv-editor/.gitignore
+/storage/debugbar/*
+!/storage/debugbar/.gitignore
+/storage/app/*
+!/storage/app/.gitignore
+!/storage/app/public
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/public/storage
+/public/hot
+/public/build
+
+# ===================================================
+# Logs & Debug Output
+# ===================================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===================================================
+# Databases & Dumps
+# ===================================================
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.sql
+*.sql.gz
+*.dump
+
+# ===================================================
+# Testing & Code Quality Tools
+# ===================================================
+.phpunit.result.cache
+.phpunit.cache
+.php-cs-fixer.cache
+.php_cs.cache
+/.coverage
+/coverage
+
+# ===================================================
+# Local Server & Virtual Environment Configs
+# ===================================================
+Homestead.json
+Homestead.yaml
+.vagrant
+
+# ===================================================
+# IDEs & Code Editors
+# ===================================================
+/.idea
+/.vscode
+/.fleet
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+*.swp
+
+# ===================================================
+# Operating System Generated Files
+# ===================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.rnd
+
+# ===================================================
+# Archives, Backups & Temp Files
+# ===================================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bak
+*.backup
+*.tmp
+*.temp
